@@ -40,13 +40,13 @@ else if(number.length!=10){
     
     return false
 }
- 
+
 else if(!(password.match(/[1234567890]/))
     && !(password.match(/[!@#$%^&*()_+]/))
     && !(password.match(/[A-Z]/))
     && !(password.match(/[a-z]/))
-){ 
+){
     errconfirmpassword.innerHTML="Please Enter correct password"
     return false
-} 
-} 
+}
+}
